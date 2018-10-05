@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pokemon_number"
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/pokemon_sprite_image"
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-20dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pokemon_name"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="20dp"
+        android:text="@string/name"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/pokemon_category"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category" />
+
+    <TextView
+        android:id="@+id/pokemon_height"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/height" />
+
+    <TextView
+        android:id="@+id/pokemon_weight"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weight" />
+
+    <TextView
+        android:id="@+id/pokemon_hp"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hp" />
+
+    <TextView
+        android:id="@+id/pokemon_speed"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/speed" />
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/pokemon_attack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/attack"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/pokemon_defense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/defense"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/pokemon_spa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spa"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:id="@+id/pokemon_spd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spd"/>
+
+
+</android.support.v7.widget.LinearLayoutCompat>
